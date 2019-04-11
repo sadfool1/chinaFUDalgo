@@ -1,0 +1,17 @@
+import time
+
+def chinaFud(year):
+    
+    china = 'fud'
+    while china == 'fud':
+        
+        print ('China bans BITCOIN in year %d'%year)
+        year +=1
+        china = 'no fud'
+        time.sleep(0.5)
+        
+    
+    chinaFud(year)
+        
+year = 2019
+chinaFud(year)
